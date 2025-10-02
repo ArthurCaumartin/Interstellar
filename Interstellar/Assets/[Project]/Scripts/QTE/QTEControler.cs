@@ -25,6 +25,24 @@ public class QTEControler : MonoBehaviour
         }
     }
 
+    public void EnableQTE(bool isEnable)
+    {
+        enabled = isEnable;
+        _qteUI.ShowUI(isEnable);
+        if (!isEnable)
+        {
+            QTETarget[] targets = GetComponentsInChildren<QTETarget>();
+            for (int i = 0; i < targets.Length; i++)
+            {
+                Destroy(targets[i].gameObject);
+            }
+        }
+    }
+
+    public void SetSpawnDelay(float value)
+    {
+        _spawnDelay = value;
+    }
 
     private void AddTarget(int directionIndex)
     {
@@ -45,22 +63,24 @@ public class QTEControler : MonoBehaviour
     {
         Vector2 input = value.Get<Vector2>();
         Vector2Int inputDir = new Vector2Int((int)input.x, (int)input.y);
+        if (inputDir == Vector2Int.zero) return;
 
         // print("in dir : " + inputDir);
         QTETarget[] targetArray = GetComponentsInChildren<QTETarget>();
         for (int i = 0; i < targetArray.Length; i++)
         {
-            QTETarget t = targetArray[i].CurrentTime < .05f ? targetArray[i] : null;
+            QTETarget t = targetArray[i].CurrentTime > .85f ? targetArray[i] : null;
             if (t)
             {
                 if (t.inputTarget == inputDir)
                 {
                     print("success");
-                    Destroy(t.gameObject);
+                    t.Remove(true);
                     OnGoodInput.Invoke();
                 }
                 else
                 {
+                    t.Remove(false);
                     print("fail");
                     OnQTEFail();
                 }

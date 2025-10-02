@@ -14,7 +14,7 @@ public class JumpSequence : MonoBehaviour
 
     private void Start()
     {
-        Jump(time, 2);
+        // Jump(time, 2);
     }
 
     public void Jump(float targetTime, float fallDelay)
