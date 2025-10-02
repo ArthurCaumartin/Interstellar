@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ public class JumpSequence : MonoBehaviour
         // Jump(time, 2);
     }
 
-    public void Jump(float targetTime, float fallDelay, JumpEvent jumpEvent)
+    public void Jump(float targetTime, float fallDelay, JumpEvent jumpEvent, Action onJumpEnd = null)
     {
         IsJumping = true;
 
@@ -44,7 +45,11 @@ public class JumpSequence : MonoBehaviour
             }, 0, 1, distance / _jumpSpeed)
             .SetEase(Ease.InCubic)
             .SetDelay(fallDelay)
-            .OnComplete(() => IsJumping = false);
+            .OnComplete(() =>
+            {
+                IsJumping = false;
+                onJumpEnd?.Invoke();
+            });
         });
     }
 

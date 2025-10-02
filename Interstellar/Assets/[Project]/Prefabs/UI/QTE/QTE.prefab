@@ -421,8 +421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetPrefab: {fileID: 2354185848891597368, guid: a811b1895dcf37045bc2cba023d245e3, type: 3}
   _qteUI: {fileID: 1956803259992396391}
-  _speed: 1
-  _spawnDelay: 1
+  _speed: 2
+  _spawnDelay: 0.6
   OnGoodInput:
     m_PersistentCalls:
       m_Calls: []
