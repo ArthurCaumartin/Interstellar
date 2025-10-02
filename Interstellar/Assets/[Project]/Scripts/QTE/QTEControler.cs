@@ -74,7 +74,7 @@ public class QTEControler : MonoBehaviour
             {
                 if (t.inputTarget == inputDir)
                 {
-                    print("success");
+                    // print("success");
                     t.Remove(true);
                     OnGoodInput.Invoke();
                 }
