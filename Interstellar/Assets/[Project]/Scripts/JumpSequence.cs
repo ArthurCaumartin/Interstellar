@@ -12,13 +12,17 @@ public class JumpSequence : MonoBehaviour
 
     public float time;
 
+    public bool IsJumping;
+
     private void Start()
     {
-        Jump(time, 2);
+        // Jump(time, 2);
     }
 
-    public void Jump(float targetTime, float fallDelay)
+    public void Jump(float targetTime, float fallDelay, JumpEvent jumpEvent)
     {
+        IsJumping = true;
+
         Vector3 target = Vector3.Lerp(_groundPoint.position, _upPoint.position, targetTime);
         Vector3 startPoint = _playerTr.position;
         float distance = Vector3.Distance(startPoint, target);
@@ -32,13 +36,20 @@ public class JumpSequence : MonoBehaviour
         .SetEase(Ease.OutCubic)
         .OnComplete(() =>
         {
+            jumpEvent?.OnEventDone.Invoke();
             DOTween.To((time) =>
             {
                 _playerTr.position = Vector3.Lerp(target, _groundPoint.position, time);
                 _playerSpritePivot.localScale = Vector3.Lerp(targetScale, Vector3.one, time);
             }, 0, 1, distance / _jumpSpeed)
             .SetEase(Ease.InCubic)
-            .SetDelay(fallDelay);
+            .SetDelay(fallDelay)
+            .OnComplete(() => IsJumping = false);
         });
+    }
+
+    public Vector3 GetPos(float time)
+    {
+        return Vector3.Lerp(_groundPoint.position, _upPoint.position, time);
     }
 }
