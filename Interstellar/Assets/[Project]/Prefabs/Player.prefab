@@ -235,7 +235,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-    delay: 0.25
+    delay: 0.1
     eventValue: 0.1
     eventPivot: {fileID: 0}
   - OnEventDone:
@@ -253,7 +253,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-    delay: 0.5
+    delay: 0.25
     eventValue: 0.5
     eventPivot: {fileID: 0}
   - OnEventDone:
@@ -274,6 +274,9 @@ MonoBehaviour:
     delay: 2
     eventValue: 0.9
     eventPivot: {fileID: 0}
+  _baseSprite: {fileID: 21300000, guid: f2f5b4050307c794dbb87236e377ca21, type: 3}
+  _jumpSprite: {fileID: 21300000, guid: ef1ac2c5cddd31840a8426536457b395, type: 3}
+  _fallSprite: {fileID: 21300000, guid: 8130055a7a598a74faac83b58534324e, type: 3}
 --- !u!1 &7133193764239361570
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,8 +379,8 @@ Transform:
   m_GameObject: {fileID: 7628729736177542341}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.013, y: 3.013, z: 3.013}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6164557946373912312}
@@ -426,7 +429,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2f5b4050307c794dbb87236e377ca21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
