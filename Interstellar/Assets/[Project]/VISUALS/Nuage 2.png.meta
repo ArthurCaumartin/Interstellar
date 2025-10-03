@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nuage 2_0: 7151412701160454139
+      Nuage 2_1: 8444945364199049549
+      Nuage 2_2: -5220326766088422104
+      Nuage 2_3: -84688290542030699
+      Nuage 2_4: -4320858369586248930
+      Nuage 2_5: 2842254622011676463
+      Nuage 2_6: -663616507448186826
+      Nuage 2_7: 6477281406625244442
+      Nuage 2_8: -4047694732825964645
+      Nuage 2_9: 2751687299670536544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
