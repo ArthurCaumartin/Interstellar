@@ -80,9 +80,9 @@ public class QTEControler : MonoBehaviour
                 }
                 else
                 {
-                    t.Remove(false);
-                    print("fail");
-                    OnQTEFail();
+                    // t.Remove(false);
+                    // print("fail");
+                    // OnQTEFail();
                 }
             }
         }

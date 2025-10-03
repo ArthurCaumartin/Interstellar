@@ -34,7 +34,7 @@ public class QTETarget : MonoBehaviour
         _time += Time.deltaTime * speed;
         ((RectTransform)transform).anchoredPosition = Vector2.Lerp(startPos, Vector2.zero, _time);
 
-        if (_time >= 1.2)
+        if (_time >= 1.1f)
         {
             _qte.OnQTEFail();
             Remove(false);
