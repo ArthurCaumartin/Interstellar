@@ -112,9 +112,9 @@ public class JumpControler : MonoBehaviour
 
         foreach (var item in _jumpEventList)
         {
-            if (_jumpTime - item.eventValue < .1f)
+            if (Mathf.Abs(_jumpTime - item.eventValue) < .1f)
             {
-                print(_jumpTime - item.eventValue);
+                print(Mathf.Abs(_jumpTime - item.eventValue));
                 _jumpTime = item.eventValue;
                 delay = item.delay;
                 jumpEvent = item;
