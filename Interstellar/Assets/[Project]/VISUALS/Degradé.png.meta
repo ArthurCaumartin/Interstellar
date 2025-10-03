@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Degrad\xE9_0": 4175525415092421082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
