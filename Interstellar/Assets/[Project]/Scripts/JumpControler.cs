@@ -51,7 +51,7 @@ public class JumpControler : MonoBehaviour
         if (_jumpSequence.IsJumping) return;
 
         bool isPresse = value.Get<float>() > .5f;
-        // print("rfghu : " + isPresse);
+        print("rfghu : " + isPresse);
         JumpInput(isPresse);
     }
 
@@ -102,7 +102,7 @@ public class JumpControler : MonoBehaviour
 
         foreach (var item in _jumpEventList)
         {
-            if (_jumpTime - item.eventValue < .15f)
+            if (_jumpTime - item.eventValue < .1f)
             {
                 print(_jumpTime - item.eventValue);
                 _jumpTime = item.eventValue;
