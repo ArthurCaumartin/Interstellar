@@ -220,25 +220,18 @@ MonoBehaviour:
   _minSpawnDelay: 0.4
   _toGainOnInput: 0.05
   _jumpEventList:
-  - OnEventDone:
+  - name: Foot Baloon
+    delay: 0.05
+    eventValue: 0.025
+    eventPivot: {fileID: 0}
+    OnEventDone:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
+        m_Calls: []
+  - name: Red Baloon
     delay: 0.1
     eventValue: 0.1
     eventPivot: {fileID: 0}
-  - OnEventDone:
+    OnEventDone:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 0}
@@ -253,10 +246,11 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+  - name: Alien
     delay: 0.25
     eventValue: 0.5
     eventPivot: {fileID: 0}
-  - OnEventDone:
+    OnEventDone:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 0}
@@ -271,9 +265,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+  - name: Fck fred
     delay: 2
     eventValue: 0.9
     eventPivot: {fileID: 0}
+    OnEventDone:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   _baseSprite: {fileID: 21300000, guid: f2f5b4050307c794dbb87236e377ca21, type: 3}
   _jumpSprite: {fileID: 21300000, guid: ef1ac2c5cddd31840a8426536457b395, type: 3}
   _fallSprite: {fileID: 21300000, guid: 8130055a7a598a74faac83b58534324e, type: 3}
