@@ -1828,6 +1828,10 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
+      propertyPath: _jumpEventList.Array.data[3].delay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
       propertyPath: _jumpEventList.Array.data[1].eventPivot
       value: 
       objectReference: {fileID: 2589167804415202385}
