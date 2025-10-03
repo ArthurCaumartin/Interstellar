@@ -218,7 +218,7 @@ MonoBehaviour:
   _qteControler: {fileID: 0}
   _maxSpawnDelay: 0.8
   _minSpawnDelay: 0.4
-  _toGainOnInput: 0.1
+  _toGainOnInput: 0.05
   _jumpEventList:
   - OnEventDone:
       m_PersistentCalls:
