@@ -15,7 +15,7 @@ public class JumpControler : MonoBehaviour
     [SerializeField] private float _toGainOnInput;
     [Space]
     [SerializeField] private List<JumpEvent> _jumpEventList = new List<JumpEvent>();
-    private float _jumpTime;
+    private float _jumpTime = 0;
     [Space]
     [SerializeField] private Sprite _baseSprite;
     [SerializeField] private Sprite _jumpSprite;
@@ -37,6 +37,7 @@ public class JumpControler : MonoBehaviour
         {
             // _jumpTime -= _toGainOnInput * 2;
             JumpInput(false);
+            _canJump = false;
         });
     }
 
@@ -51,19 +52,27 @@ public class JumpControler : MonoBehaviour
         if (_jumpSequence.IsJumping) return;
 
         bool isPresse = value.Get<float>() > .5f;
-        // print("rfghu : " + isPresse);
+        print("rfghu : " + isPresse);
+        if (isPresse)
+        {
+            _canJump = true;
+        }
         JumpInput(isPresse);
     }
 
     public void JumpInput(bool isPresse)
     {
+        if (!_canJump) return;
         _qteControler.EnableQTE(isPresse);
         _playerUI.gameObject.SetActive(isPresse);
         GetComponentInChildren<SpriteRenderer>().sprite = isPresse ? _jumpSprite : _fallSprite;
+        AudioManager.Instance.PlaySound(AudioManager.Instance.PrepareJumpClip);
+        AudioManager.Instance.PlayCharge(isPresse);
 
         if (!isPresse)
         {
             Jump();
+            _canJump = false;
         }
     }
 
@@ -76,6 +85,7 @@ public class JumpControler : MonoBehaviour
         {
             GetComponentInChildren<SpriteRenderer>().sprite = _baseSprite;
         });
+        AudioManager.Instance.PlaySound(AudioManager.Instance.JumpClip);
         _jumpTime = 0;
     }
 
@@ -102,7 +112,7 @@ public class JumpControler : MonoBehaviour
 
         foreach (var item in _jumpEventList)
         {
-            if (_jumpTime - item.eventValue < .15f)
+            if (_jumpTime - item.eventValue < .1f)
             {
                 print(_jumpTime - item.eventValue);
                 _jumpTime = item.eventValue;
