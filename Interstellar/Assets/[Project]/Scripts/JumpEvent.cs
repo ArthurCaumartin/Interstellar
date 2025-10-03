@@ -5,9 +5,10 @@ using UnityEngine.Events;
 [Serializable]
 public class JumpEvent
 {
-    public UnityEvent OnEventDone;
+    public string name;
     public float delay = 1;
     public float eventValue;
     public Transform eventPivot;
+    public UnityEvent OnEventDone;
 }
 
