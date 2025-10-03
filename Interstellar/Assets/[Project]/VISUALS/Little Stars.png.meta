@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: b458b471e4983644683b446630115299
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5348604197107272316
+    second: Little Stars_0
+  - first:
+      213: 4536964320057250123
+    second: Little Stars_1
+  - first:
+      213: -2147312486094494111
+    second: Little Stars_2
+  - first:
+      213: -8004175663642451744
+    second: Little Stars_3
+  - first:
+      213: -7654978976779477702
+    second: Little Stars_4
+  - first:
+      213: -8944629686448049521
+    second: Little Stars_5
+  - first:
+      213: 5185364236462408978
+    second: Little Stars_6
+  - first:
+      213: -8504484334460042934
+    second: Little Stars_7
+  - first:
+      213: 6172738796437332408
+    second: Little Stars_8
+  - first:
+      213: 7029077268504532729
+    second: Little Stars_9
+  - first:
+      213: 5453731682459026625
+    second: Little Stars_10
+  - first:
+      213: 1038489549229804497
+    second: Little Stars_11
+  - first:
+      213: 5111719469294124002
+    second: Little Stars_12
+  - first:
+      213: 669336711797635853
+    second: Little Stars_13
+  - first:
+      213: 3671748737356775037
+    second: Little Stars_14
+  - first:
+      213: 4973739732079290473
+    second: Little Stars_15
+  - first:
+      213: 8845915338838549940
+    second: Little Stars_16
+  - first:
+      213: -9179634050817614375
+    second: Little Stars_17
+  - first:
+      213: 2608542107225531155
+    second: Little Stars_18
+  - first:
+      213: -3660789002636120582
+    second: Little Stars_19
+  - first:
+      213: -58125666904437850
+    second: Little Stars_20
+  - first:
+      213: 9220179196909352896
+    second: Little Stars_21
+  - first:
+      213: 2755939102659120774
+    second: Little Stars_22
+  - first:
+      213: -1806865499005036955
+    second: Little Stars_23
+  - first:
+      213: 2223013638506362605
+    second: Little Stars_24
+  - first:
+      213: -6601763825895726127
+    second: Little Stars_25
+  - first:
+      213: 589709404681012392
+    second: Little Stars_26
+  - first:
+      213: -2370067703346630566
+    second: Little Stars_27
+  - first:
+      213: 7548711274706631760
+    second: Little Stars_28
+  - first:
+      213: -520864432752189064
+    second: Little Stars_29
+  - first:
+      213: 710625069302572196
+    second: Little Stars_30
+  - first:
+      213: -7113223725481401735
+    second: Little Stars_31
+  - first:
+      213: -2780129107592872377
+    second: Little Stars_32
+  - first:
+      213: -5714067847882709410
+    second: Little Stars_33
+  - first:
+      213: -8479043301318948188
+    second: Little Stars_34
+  - first:
+      213: -160098293037696815
+    second: Little Stars_35
+  - first:
+      213: 7233235739752596307
+    second: Little Stars_36
+  - first:
+      213: 5632880842995990475
+    second: Little Stars_37
+  - first:
+      213: -7212359374251915016
+    second: Little Stars_38
+  - first:
+      213: -5026897321955272055
+    second: Little Stars_39
+  - first:
+      213: 615818099441732462
+    second: Little Stars_40
+  - first:
+      213: -5469870761333955622
+    second: Little Stars_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Little Stars_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 551
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a0ebcdd2f0a3a40800000000000000
+      internalID: 5348604197107272316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 534
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4152afd20986fe30800000000000000
+      internalID: 4536964320057250123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 511
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166a39cbba63332e0800000000000000
+      internalID: -2147312486094494111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 538
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e3c054a47be090800000000000000
+      internalID: -8004175663642451744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 547
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dd9fdad2d04c590800000000000000
+      internalID: -7654978976779477702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 551
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82b9dbd0ba4ed380800000000000000
+      internalID: -8944629686448049521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 535
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2154b51cc4d16f740800000000000000
+      internalID: 5185364236462408978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 526
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4182a67e800af980800000000000000
+      internalID: -8504484334460042934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 538
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b16be41b39f9a550800000000000000
+      internalID: 6172738796437332408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 509
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f65cf7b88c4c8160800000000000000
+      internalID: 7029077268504532729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 524
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c48341f11c8fab40800000000000000
+      internalID: 5453731682459026625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 523
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db4ccc2eb4796e00800000000000000
+      internalID: 1038489549229804497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 437
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb79b636c970f640800000000000000
+      internalID: 5111719469294124002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 510
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b73dd6136f94900800000000000000
+      internalID: 669336711797635853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 507
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eb3aad50ca4f230800000000000000
+      internalID: 3671748737356775037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 513
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96825df2fe5460540800000000000000
+      internalID: 4973739732079290473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 512
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5a6ac022103ca70800000000000000
+      internalID: 8845915338838549940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 512
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd9fe077736b9080800000000000000
+      internalID: -9179634050817614375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 492
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313a3d2d937633420800000000000000
+      internalID: 2608542107225531155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 512
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afda73c3cc3423dc0800000000000000
+      internalID: -3660789002636120582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab04df830f713ff0800000000000000
+      internalID: -58125666904437850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 506
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c77a350128a4ff70800000000000000
+      internalID: 9220179196909352896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 500
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e0b9423001f3620800000000000000
+      internalID: 2755939102659120774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 502
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56655eed669bce6e0800000000000000
+      internalID: -1806865499005036955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 498
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6350e402bb9de10800000000000000
+      internalID: 2223013638506362605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 505
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3267a27c2d164a0800000000000000
+      internalID: -6601763825895726127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 503
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a408b244911f2800800000000000000
+      internalID: 589709404681012392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 496
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50f5602bf3db1fd0800000000000000
+      internalID: -2370067703346630566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 467
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cffd8d8e862c860800000000000000
+      internalID: 7548711274706631760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_29
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 431
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871abadde8485c8f0800000000000000
+      internalID: -520864432752189064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 430
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a464484cb5acd900800000000000000
+      internalID: 710625069302572196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_31
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 411
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972ecca85b0c84d90800000000000000
+      internalID: -7113223725481401735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_32
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 416
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ef3307e4ffa69d0800000000000000
+      internalID: -2780129107592872377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 391
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e566878119d83b0b0800000000000000
+      internalID: -5714067847882709410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_34
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 382
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa8ab59a03645a80800000000000000
+      internalID: -8479043301318948188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_35
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 353
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d87752637737cdf0800000000000000
+      internalID: -160098293037696815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_36
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 338
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3530d9cf49d916460800000000000000
+      internalID: 7233235739752596307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 268
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcff0ec48430c2e40800000000000000
+      internalID: 5632880842995990475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f88141ac5d88eb90800000000000000
+      internalID: -7212359374251915016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_39
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a5e72f48fdc3ab0800000000000000
+      internalID: -5026897321955272055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_40
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b0b777c43db8800800000000000000
+      internalID: 615818099441732462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Stars_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3e46fe58d1714b0800000000000000
+      internalID: -5469870761333955622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Little Stars_0: 5348604197107272316
+      Little Stars_1: 4536964320057250123
+      Little Stars_10: 5453731682459026625
+      Little Stars_11: 1038489549229804497
+      Little Stars_12: 5111719469294124002
+      Little Stars_13: 669336711797635853
+      Little Stars_14: 3671748737356775037
+      Little Stars_15: 4973739732079290473
+      Little Stars_16: 8845915338838549940
+      Little Stars_17: -9179634050817614375
+      Little Stars_18: 2608542107225531155
+      Little Stars_19: -3660789002636120582
+      Little Stars_2: -2147312486094494111
+      Little Stars_20: -58125666904437850
+      Little Stars_21: 9220179196909352896
+      Little Stars_22: 2755939102659120774
+      Little Stars_23: -1806865499005036955
+      Little Stars_24: 2223013638506362605
+      Little Stars_25: -6601763825895726127
+      Little Stars_26: 589709404681012392
+      Little Stars_27: -2370067703346630566
+      Little Stars_28: 7548711274706631760
+      Little Stars_29: -520864432752189064
+      Little Stars_3: -8004175663642451744
+      Little Stars_30: 710625069302572196
+      Little Stars_31: -7113223725481401735
+      Little Stars_32: -2780129107592872377
+      Little Stars_33: -5714067847882709410
+      Little Stars_34: -8479043301318948188
+      Little Stars_35: -160098293037696815
+      Little Stars_36: 7233235739752596307
+      Little Stars_37: 5632880842995990475
+      Little Stars_38: -7212359374251915016
+      Little Stars_39: -5026897321955272055
+      Little Stars_4: -7654978976779477702
+      Little Stars_40: 615818099441732462
+      Little Stars_41: -5469870761333955622
+      Little Stars_5: -8944629686448049521
+      Little Stars_6: 5185364236462408978
+      Little Stars_7: -8504484334460042934
+      Little Stars_8: 6172738796437332408
+      Little Stars_9: 7029077268504532729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
