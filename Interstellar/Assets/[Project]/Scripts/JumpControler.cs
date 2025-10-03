@@ -20,7 +20,7 @@ public class JumpControler : MonoBehaviour
     [SerializeField] private Sprite _baseSprite;
     [SerializeField] private Sprite _jumpSprite;
     [SerializeField] private Sprite _fallSprite;
-
+    private bool _canJump = true;
 
     private void Start()
     {
@@ -34,7 +34,7 @@ public class JumpControler : MonoBehaviour
         _qteControler.OnBadInput.AddListener(() =>
         {
             // _jumpTime -= _toGainOnInput * 2;
-            Jump();
+            JumpInput(false);
         });
     }
 
@@ -50,6 +50,15 @@ public class JumpControler : MonoBehaviour
 
         bool isPresse = value.Get<float>() > .5f;
         // print("rfghu : " + isPresse);
+        JumpInput(isPresse);
+
+        _canJump = true;
+    }
+
+    public void JumpInput(bool isPresse)
+    {
+        if(!_canJump) return;
+        _canJump = false;
         _qteControler.EnableQTE(isPresse);
         _playerUI.gameObject.SetActive(isPresse);
         GetComponentInChildren<SpriteRenderer>().sprite = isPresse ? _jumpSprite : _fallSprite;
