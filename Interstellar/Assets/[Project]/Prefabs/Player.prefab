@@ -217,8 +217,8 @@ MonoBehaviour:
   _jumpSequence: {fileID: 0}
   _qteControler: {fileID: 0}
   _maxSpawnDelay: 0.8
-  _minSpawnDelay: 0.4
-  _toGainOnInput: 0.05
+  _minSpawnDelay: 0.15
+  _toGainOnInput: 0.04
   _jumpEventList:
   - name: Foot Baloon
     delay: 0.05

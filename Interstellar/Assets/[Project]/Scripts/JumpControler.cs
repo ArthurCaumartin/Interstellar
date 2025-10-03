@@ -29,6 +29,8 @@ public class JumpControler : MonoBehaviour
         _qteControler.OnGoodInput.AddListener(() =>
         {
             _jumpTime += _toGainOnInput;
+            if (_jumpTime >= 1)
+                JumpInput(false);
         });
 
         _qteControler.OnBadInput.AddListener(() =>
@@ -51,14 +53,10 @@ public class JumpControler : MonoBehaviour
         bool isPresse = value.Get<float>() > .5f;
         // print("rfghu : " + isPresse);
         JumpInput(isPresse);
-
-        _canJump = true;
     }
 
     public void JumpInput(bool isPresse)
     {
-        if(!_canJump) return;
-        _canJump = false;
         _qteControler.EnableQTE(isPresse);
         _playerUI.gameObject.SetActive(isPresse);
         GetComponentInChildren<SpriteRenderer>().sprite = isPresse ? _jumpSprite : _fallSprite;
@@ -71,9 +69,13 @@ public class JumpControler : MonoBehaviour
 
     private void Jump()
     {
+        print("Jump from : " + _jumpTime);
         EventStuff(out float delay, out JumpEvent jumpEvent);
         print("Jump to : " + _jumpTime);
-        _jumpSequence.Jump(_jumpTime, delay, jumpEvent, () => GetComponentInChildren<SpriteRenderer>().sprite = _baseSprite);
+        _jumpSequence.Jump(_jumpTime, delay, jumpEvent, () =>
+        {
+            GetComponentInChildren<SpriteRenderer>().sprite = _baseSprite;
+        });
         _jumpTime = 0;
     }
 
@@ -81,6 +83,22 @@ public class JumpControler : MonoBehaviour
     {
         delay = 0;
         jumpEvent = null;
+
+        if (_jumpTime >= 1)
+        {
+            float max = -100;
+            foreach (var item in _jumpEventList)
+            {
+                if (item.eventValue > max)
+                {
+                    max = item.eventValue;
+                    delay = item.delay;
+                    jumpEvent = item;
+                }
+            }
+            _jumpTime = max;
+            return;
+        }
 
         foreach (var item in _jumpEventList)
         {

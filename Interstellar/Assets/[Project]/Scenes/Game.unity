@@ -1232,6 +1232,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1396546878}
     - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
+      propertyPath: _minSpawnDelay
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
+      propertyPath: _toGainOnInput
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
       propertyPath: _jumpEventList.Array.data[1].eventPivot
       value: 
       objectReference: {fileID: 1274645739}
