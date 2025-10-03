@@ -229,7 +229,7 @@ MonoBehaviour:
         m_Calls: []
   - name: Red Baloon
     delay: 0.1
-    eventValue: 0.1
+    eventValue: 0.2
     eventPivot: {fileID: 0}
     OnEventDone:
       m_PersistentCalls:
@@ -248,7 +248,7 @@ MonoBehaviour:
           m_CallState: 2
   - name: Alien
     delay: 0.25
-    eventValue: 0.5
+    eventValue: 0.65
     eventPivot: {fileID: 0}
     OnEventDone:
       m_PersistentCalls:

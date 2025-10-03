@@ -1154,18 +1154,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 611721455131527159, guid: dd83f4e121cab3b4e94c0883fe8250f8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 27.910002
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714094520896767385, guid: dd83f4e121cab3b4e94c0883fe8250f8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 139.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 7571537397237122780, guid: dd83f4e121cab3b4e94c0883fe8250f8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 251.19
-      objectReference: {fileID: 0}
     - target: {fileID: 8540289893154968268, guid: dd83f4e121cab3b4e94c0883fe8250f8, type: 3}
       propertyPath: m_Name
       value: Events
@@ -1231,14 +1219,6 @@ PrefabInstance:
       propertyPath: _qteControler
       value: 
       objectReference: {fileID: 1396546878}
-    - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
-      propertyPath: _minSpawnDelay
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
-      propertyPath: _toGainOnInput
-      value: 0.04
-      objectReference: {fileID: 0}
     - target: {fileID: 3418730614730377937, guid: 9c51096f4017f8c44ac96925b9d757ab, type: 3}
       propertyPath: _jumpEventList.Array.data[1].eventPivot
       value: 
