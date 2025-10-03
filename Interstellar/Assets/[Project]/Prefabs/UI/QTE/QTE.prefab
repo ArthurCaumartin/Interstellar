@@ -233,7 +233,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -267, y: 75}
-  m_SizeDelta: {x: 1022, y: 685}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5900780922056606578
 CanvasRenderer:
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetPrefab: {fileID: 2354185848891597368, guid: a811b1895dcf37045bc2cba023d245e3, type: 3}
   _qteUI: {fileID: 1956803259992396391}
-  _speed: 1
-  _spawnDelay: 1
+  _speed: 2
+  _spawnDelay: 0.6
   OnGoodInput:
     m_PersistentCalls:
       m_Calls: []

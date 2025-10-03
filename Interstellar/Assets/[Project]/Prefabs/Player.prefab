@@ -218,12 +218,65 @@ MonoBehaviour:
   _qteControler: {fileID: 0}
   _maxSpawnDelay: 0.8
   _minSpawnDelay: 0.4
-  _toGainOnInput: 0.1
+  _toGainOnInput: 0.05
   _jumpEventList:
   - OnEventDone:
       m_PersistentCalls:
-        m_Calls: []
-    eventValue: 23
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    delay: 0.1
+    eventValue: 0.1
+    eventPivot: {fileID: 0}
+  - OnEventDone:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    delay: 0.25
+    eventValue: 0.5
+    eventPivot: {fileID: 0}
+  - OnEventDone:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    delay: 2
+    eventValue: 0.9
+    eventPivot: {fileID: 0}
+  _baseSprite: {fileID: 21300000, guid: f2f5b4050307c794dbb87236e377ca21, type: 3}
+  _jumpSprite: {fileID: 21300000, guid: ef1ac2c5cddd31840a8426536457b395, type: 3}
+  _fallSprite: {fileID: 21300000, guid: 8130055a7a598a74faac83b58534324e, type: 3}
 --- !u!1 &7133193764239361570
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,8 +379,8 @@ Transform:
   m_GameObject: {fileID: 7628729736177542341}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.013, y: 3.013, z: 3.013}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6164557946373912312}
@@ -376,7 +429,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2f5b4050307c794dbb87236e377ca21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -457,7 +510,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0
+  m_FillAmount: 0.675
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

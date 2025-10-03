@@ -16,6 +16,10 @@ public class JumpControler : MonoBehaviour
     [Space]
     [SerializeField] private List<JumpEvent> _jumpEventList = new List<JumpEvent>();
     private float _jumpTime;
+    [Space]
+    [SerializeField] private Sprite _baseSprite;
+    [SerializeField] private Sprite _jumpSprite;
+    [SerializeField] private Sprite _fallSprite;
 
 
     private void Start()
@@ -29,13 +33,15 @@ public class JumpControler : MonoBehaviour
 
         _qteControler.OnBadInput.AddListener(() =>
         {
-            _jumpTime -= _toGainOnInput;
+            // _jumpTime -= _toGainOnInput * 2;
+            Jump();
         });
     }
 
     private void Update()
     {
         _chargeImage.fillAmount = _jumpTime;
+        _qteControler.SetSpawnDelay(Mathf.Lerp(_maxSpawnDelay, _minSpawnDelay, _jumpTime));
     }
 
     public void OnJumpCharge(InputValue value)
@@ -46,15 +52,20 @@ public class JumpControler : MonoBehaviour
         // print("rfghu : " + isPresse);
         _qteControler.EnableQTE(isPresse);
         _playerUI.gameObject.SetActive(isPresse);
+        GetComponentInChildren<SpriteRenderer>().sprite = isPresse ? _jumpSprite : _fallSprite;
 
-        _qteControler.SetSpawnDelay(Mathf.Lerp(_maxSpawnDelay, _minSpawnDelay, _jumpTime));
         if (!isPresse)
         {
-            EventStuff(out float delay, out JumpEvent jumpEvent);
-            print("Jump to : " + _jumpTime);
-            _jumpSequence.Jump(_jumpTime, delay, jumpEvent);
-            _jumpTime = 0;
+            Jump();
         }
+    }
+
+    private void Jump()
+    {
+        EventStuff(out float delay, out JumpEvent jumpEvent);
+        print("Jump to : " + _jumpTime);
+        _jumpSequence.Jump(_jumpTime, delay, jumpEvent, () => GetComponentInChildren<SpriteRenderer>().sprite = _baseSprite);
+        _jumpTime = 0;
     }
 
     private void EventStuff(out float delay, out JumpEvent jumpEvent)
