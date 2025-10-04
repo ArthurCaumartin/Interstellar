@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: a1caa111e0ae0744f8d4c3aca3e5a5be
+guid: 4506cba7aa00c8c46a21c800a3caaf4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5814974052416678444
-    second: Ovni_hole_0
+      213: 6739525665018108972
+    second: Garden Stuff_0
   - first:
-      213: -736609926574026001
-    second: Ovni_hole_1
+      213: -2906190863878201962
+    second: Garden Stuff_1
   - first:
-      213: -5808339894364062586
-    second: Ovni_hole_2
+      213: -3453289300017048153
+    second: Garden Stuff_2
   - first:
-      213: 4860360474946076870
-    second: Ovni_hole_3
+      213: -346887608600348200
+    second: Garden Stuff_3
   - first:
-      213: 7241036248480024733
-    second: Ovni_hole_4
+      213: -2552403473405015712
+    second: Garden Stuff_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,11 +58,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.103114165, y: 0.4199329}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -121,128 +121,115 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ovni_hole_0
+      name: Garden Stuff_0
       rect:
         serializedVersion: 2
         x: 0
+        y: 20
+        width: 91
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c580282ea978d50800000000000000
+      internalID: 6739525665018108972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garden Stuff_1
+      rect:
+        serializedVersion: 2
+        x: 83
         y: 0
-        width: 144
-        height: 51
+        width: 88
+        height: 183
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d5179b88ef0d4fa0800000000000000
-      internalID: -5814974052416678444
+      spriteID: 69ddd059ec22ba7d0800000000000000
+      internalID: -2906190863878201962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ovni_hole_1
+      name: Garden Stuff_2
       rect:
         serializedVersion: 2
-        x: 476
-        y: 23
-        width: 78
-        height: 42
+        x: 194
+        y: 15
+        width: 220
+        height: 118
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe2578cac2907c5f0800000000000000
-      internalID: -736609926574026001
+      spriteID: 7a593dd8da37310d0800000000000000
+      internalID: -3453289300017048153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ovni_hole_2
+      name: Garden Stuff_3
       rect:
         serializedVersion: 2
-        x: 582
-        y: 6
-        width: 26
-        height: 28
+        x: 418
+        y: 1
+        width: 182
+        height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68c33b5d3a1a46fa0800000000000000
-      internalID: -5808339894364062586
+      spriteID: 8d93460de8b9f2bf0800000000000000
+      internalID: -346887608600348200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ovni_hole_3
+      name: Garden Stuff_4
       rect:
         serializedVersion: 2
-        x: 603
-        y: 21
-        width: 8
-        height: 7
+        x: 619
+        y: 8
+        width: 101
+        height: 65
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c08285c918737340800000000000000
-      internalID: 4860360474946076870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ovni_hole_4
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 26
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9801647a145d7460800000000000000
-      internalID: 7241036248480024733
+      spriteID: 069883c609a049cd0800000000000000
+      internalID: -2552403473405015712
       vertices: []
       indices: 
       edges: []
@@ -251,8 +238,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -260,12 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ovni_hole_0: -5814974052416678444
-      Ovni_hole_1: -736609926574026001
-      Ovni_hole_2: -5808339894364062586
-      Ovni_hole_3: 4860360474946076870
-      Ovni_hole_4: 7241036248480024733
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
