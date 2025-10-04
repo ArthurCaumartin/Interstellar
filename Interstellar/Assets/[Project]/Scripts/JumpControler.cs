@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class JumpControler : MonoBehaviour
 {
-    [SerializeField] private Canvas _playerUI;
+    [SerializeField] private Transform _playerUI;
+    [SerializeField] private Image _playerImage;
     [SerializeField] private Image _chargeImage;
     [Space]
     [SerializeField] private JumpSequence _jumpSequence;
@@ -65,7 +66,15 @@ public class JumpControler : MonoBehaviour
         if (!_canJump) return;
         _qteControler.EnableQTE(isPresse);
         _playerUI.gameObject.SetActive(isPresse);
-        GetComponentInChildren<SpriteRenderer>().sprite = isPresse ? _jumpSprite : _fallSprite;
+
+        // SpriteRenderer s = GetComponentInChildren<SpriteRenderer>();
+        // s.sprite = null;
+        _playerImage.sprite = isPresse ? _jumpSprite : _fallSprite;
+        _playerImage.transform.position = new Vector3(_playerImage.transform.position.x, isPresse ? 0.89f : 1.14f, _playerImage.transform.position.z);
+        _playerImage.SetNativeSize();
+        // s.enabled = false;
+        // s.enabled = true;
+
         AudioManager.Instance.PlaySound(AudioManager.Instance.PrepareJumpClip);
         AudioManager.Instance.PlayCharge(isPresse);
 
@@ -83,7 +92,12 @@ public class JumpControler : MonoBehaviour
         print("Jump to : " + _jumpTime);
         _jumpSequence.Jump(_jumpTime, delay, jumpEvent, () =>
         {
-            GetComponentInChildren<SpriteRenderer>().sprite = _baseSprite;
+            // SpriteRenderer s = GetComponentInChildren<SpriteRenderer>();
+            // s.sprite = null;
+            _playerImage.sprite = _baseSprite;
+            _playerImage.SetNativeSize();
+            // s.enabled = false;
+            // s.enabled = true;
         });
         AudioManager.Instance.PlaySound(AudioManager.Instance.JumpClip);
         _jumpTime = 0;
